@@ -8,7 +8,6 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import joblib
-
 # Load dataset
 df = pd.read_csv("car data.csv")
 
